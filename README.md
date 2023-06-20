@@ -70,6 +70,7 @@ $ go run cmd/main.go
 
 This service has the following API endpoints:
 
+- `admin/v1/login`: login (method: POST)
 - `admin/v1/articles`: get list of articles
 - `admin/v1/article`: insert, update, delete and get details of article (method: POST, PATCH, DELETE, and GET)
 - `admin/v1/categories`: get list of categories
@@ -96,3 +97,11 @@ $ npm install
 $ npm start
 ```
 
+### User Account
+The API Endpoint Doesn't have register feature, so we use this user account to login
+```
+{
+    "phone": "0895",
+    "password": "password"
+}
+```
