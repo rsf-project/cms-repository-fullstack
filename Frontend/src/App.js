@@ -5,7 +5,7 @@ import {
   Navigate,
 } from "react-router-dom";
 import Login from "./login/Login";
-import Dashboard from "./pages/Layout";
+// import Dashboard from "./pages/Layout";
 import Article from "./pages/content/tableArticle";
 import Category from "./pages/content/tableCategory";
 import { useCookies } from "react-cookie";
@@ -25,7 +25,7 @@ function App() {
             )
           }
         />
-        <Route
+        {/* <Route
           path="/dashboard"
           element={
             cookie.token === undefined || cookie.token === "" ? (
@@ -34,7 +34,7 @@ function App() {
               <Dashboard />
             )
           }
-        />
+        /> */}
         <Route
           path="/article"
           element={
