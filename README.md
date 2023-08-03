@@ -12,7 +12,7 @@ Welcome to the Simple CMS Admin Service, this project using React.js for fronten
 
 ### Installation
 
-- Clone the git repository:
+- Clone the Git Repository:
 
 ```
 $ git clone https://github.com/rsf-project/cms-repository-fullstack
@@ -23,6 +23,7 @@ $ cd cms-repository-fullstack
 
 We can import sql file using DataGrip, pgAdmin, or etc.
 Alternatively, we can use psql shell and exec command below:
+
 ```
 $ cd Database
 $ C:\Program Files\PostgreSQL\15\bin\pg_restore.exe" -U postgres -d "YOUR_DB_NAME" < "cms-repository.sql"
@@ -98,7 +99,9 @@ $ npm start
 ```
 
 ### User Account
+
 The API Endpoint Doesn't have register feature, so we use this user account to login
+
 ```
 {
     "phone": "0895",
